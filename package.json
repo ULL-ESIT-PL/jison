@@ -45,7 +45,9 @@
     "uglify-js": "~2.4.0"
   },
   "scripts": {
-    "test": "node tests/all-tests.js"
+    "test": "node tests/all-tests.js",
+    "pub": "source .env && npm publish",
+    "publish": "npm run pub"
   },
   "homepage": "https://gerhobbelt.github.io/jison/docs/"
 }
