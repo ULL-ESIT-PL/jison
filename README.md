@@ -27,7 +27,7 @@ or, having set up your npm registry to point to the GitHub registry:
 ➜  jison git:(master) cat .npmrc
 ```
 
-``ìnit
+```ini
 # Configure npm to use GitHub Packages for @ull-esit-pl scope
 @ull-esit-pl:registry=https://npm.pkg.github.com
 # See the .env file for the actual token value
