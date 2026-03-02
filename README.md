@@ -12,7 +12,7 @@ Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a
 
 [@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) is allocated in the GitHub Registry and can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`](https://docs.npmjs.com/) configuring first these two steps:
 
-1. Set up your npm registry to point to associate the `@ull-esit-pl` scope with the GitHub Registry:
+1. Set up your npm registry to point to associate the `@ull-esit-pl` scope with the GitHub Registry via a `.npmrc` file in your project root or in your home directory `~/.npmrc`:
 
     ```console
     ➜  jison git:(master) cat .npmrc
@@ -24,9 +24,9 @@ Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a
     # See the .env file for the actual token value
     //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
     ```
-2. Set up the environment variable `NODE_AUTH_TOKEN` with the appropriate token taken from GitHub (https://github.com/setttings/tokens) 
+2. Set up the environment variable `NODE_AUTH_TOKEN` with the appropriate token created at GitHub (https://github.com/setttings/tokens). Set the token with at least the `read:packages` scope to be able to install the package, and with the `write:packages` scope if you want to publish new versions of your packages.
 
-Then you can install `@ull-esit-pl/jison`with the usual command:
+Then you can install `@ull-esit-pl/jison` with the usual command:
 
 ```
     npm install @ull-esit-pl/jison 
