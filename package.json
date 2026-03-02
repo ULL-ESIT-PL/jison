@@ -48,7 +48,11 @@
     "test": "node tests/all-tests.js",
     "pub": "source .env && npm publish",
     "publi": "npm run pub",
+    "browserify": "browserify entry.js --exports require | npx uglifyjs > web/content/assets/js/jison.js",
+    "nanoc": "npm run browserify && cd web/ && nanoc compile",
+    "build": "npm run nanoc && cp -r examples web/output/jison/",
     "website": "gh-pages -d web/output/jison --nojekyll",
+    "deploy": "npm run website",
     "install-jison-lex": "source .env && npm i jison-lex"
   },
   "homepage": "https://gerhobbelt.github.io/jison/docs/"
