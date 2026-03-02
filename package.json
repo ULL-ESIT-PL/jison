@@ -34,7 +34,7 @@
     "ebnf-parser": "0.1.10",
     "escodegen": "1.3.x",
     "esprima": "1.1.x",
-    "jison-lex": "^0.3.4",
+    "@ull-esit-pl/jison-lex": "^0.3.10",
     "JSONSelect": "0.4.0",
     "lex-parser": "~0.1.3"
   },

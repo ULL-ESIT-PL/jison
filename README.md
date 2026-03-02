@@ -1,12 +1,8 @@
-Jison
-=====
-* [issues](http://github.com/zaach/jison/issues)
-* [discuss](mailto:jison@librelist.com)
+# Jison
 
-[![build status](https://travis-ci.org/zaach/jison.svg)](http://travis-ci.org/zaach/jison)
+* [issues](https://github.com/ULL-ESIT-PL/jison/issues)
 
-An API for creating parsers in JavaScript
------------------------------------------
+## An API for creating parsers in JavaScript
 
 Jison generates bottom-up parsers in JavaScript. Its API is similar to Bison's, hence the name. It supports many of Bison's major features, plus some of its own. If you are new to parser generators such as Bison, and Context-free Grammars in general, a [good introduction][1] is found in the Bison manual. If you already know Bison, Jison should be easy to pickup.
 
@@ -177,5 +173,5 @@ License
 > IN THE SOFTWARE.
 
 
-  [1]: http://dinosaur.compilertools.net/bison/bison_4.html
+  [1]: https://www.gnu.org/software/bison/manual/bison.html
 
