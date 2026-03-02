@@ -134,7 +134,7 @@ Contributors
 
 See https://github.com/ULL-ESIT-PL/jison/graphs/contributors 
 
-Zachary Carter gives special thanks to Jarred Ligatti, Manuel E. Bermúdez 
+Special thanks to Jarred Ligatti, Manuel E. Bermúdez 
 
 License
 -------
