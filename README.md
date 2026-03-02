@@ -116,7 +116,7 @@ parser.parse("adfe34bc zxg");
 
 More Documentation
 ------------------
-For more information on creating grammars and using the generated parsers, read the [documentation](https://ull-esit-pl.github.io/jison/).
+For more information on creating grammars and using the generated parsers, read the [documentation](https://ull-esit-pl.github.io/jison/docs/).
 
 How to contribute
 -----------------
