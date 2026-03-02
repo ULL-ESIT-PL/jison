@@ -1,6 +1,8 @@
 # Contributing to Jison
 
-Fork, make your changes, run tests and/or add tests then send a pull request.
+Fork, make your changes, run tests and/or add tests 
+and then send your issues to https://github.com/ULL-ESIT-PL/jison/issues
+and pull requests to https://github.com/ULL-ESIT-PL/jison/pulls.
 
 ## Running tests
 
@@ -12,7 +14,7 @@ First run:
 
 Then run tests with:
 
-    make test
+    npm test
 
 ## Building the site
 
@@ -25,9 +27,3 @@ Then you can also preview the site by doing:
     make preview
     
 Note that you will need `nanoc` and `adsf` in order to build/preview the site. `gem install` them if you haven't.
-
-## Make a pull request
-
-Make your changes, 
-run tests and/or add tests and then send your issues to https://github.com/ULL-ESIT-PL/jison/issues
-and pull requests to https://github.com/ULL-ESIT-PL/jison/pulls.
