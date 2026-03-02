@@ -10,27 +10,29 @@ Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a
 
 ## Installation
 
-[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`](https://docs.npmjs.com/). Having set up your npm registry to point to the GitHub registry:
+[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`](https://docs.npmjs.com/). 
 
-```console
-➜  jison git:(master) cat .npmrc
-```
+1. Set up your npm registry to point to associate the `@ull-esit-pl` scope with the GitHub Registry:
 
-```ini
-# Configure npm to use GitHub Packages for @ull-esit-pl scope
-@ull-esit-pl:registry=https://npm.pkg.github.com
-# See the .env file for the actual token value
-//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
-```
+    ```console
+    ➜  jison git:(master) cat .npmrc
+    ```
 
-and you set up your `.env` file with the appropriate token taken from GitHub (https://github.com/setttings/tokens), then you can install with:
+    ```ini
+    # Configure npm to use GitHub Packages for @ull-esit-pl scope
+    @ull-esit-pl:registry=https://npm.pkg.github.com
+    # See the .env file for the actual token value
+    //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+    ```
+2. Set up the environment variable `NODE_AUTH_TOKEN` with the appropriate token taken from GitHub (https://github.com/setttings/tokens) 
+
+Then you can install `@ull-esit-pl/jison`with the usual command:
 
 ```
     npm install @ull-esit-pl/jison 
 ```
 
-Usage from the command line
------------------------
+## Usage from the command line
 
 Clone the github repository for examples:
 
