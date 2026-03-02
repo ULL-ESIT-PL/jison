@@ -121,7 +121,7 @@ For more information on creating grammars and using the generated parsers, read 
 How to contribute
 -----------------
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, how to run the tests, etc.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 Projects using Jison
 ------------------
