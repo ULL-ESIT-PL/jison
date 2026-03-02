@@ -39,7 +39,7 @@ Clone the github repository for examples:
     git clone https://github.com/ULL-ESIT-PL/jison.git
     cd jison/examples
 
-Now you're ready to generate some parsers:
+Now you're ready to generate some parsers (see [examples/calculator.jison](examples/calculator.jison)):
 
     jison calculator.jison
 
