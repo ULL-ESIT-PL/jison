@@ -41,13 +41,15 @@
   },
   "devDependencies": {
     "browserify": "2.x.x",
+    "gh-pages": "^6.3.0",
     "test": "0.6.x",
     "uglify-js": "~2.4.0"
   },
   "scripts": {
     "test": "node tests/all-tests.js",
     "pub": "source .env && npm publish",
-    "publi": "npm run pub"
+    "publi": "npm run pub",
+    "website": "gh-pages -d web/output --nojekyll"
   },
   "homepage": "https://gerhobbelt.github.io/jison/docs/"
 }
