@@ -52,7 +52,8 @@
     "nanoc": "npm run browserify && cd web/ && nanoc compile",
     "build": "npm run nanoc && cp -r examples web/output/jison/",
     "website": "gh-pages -d web/output/jison --nojekyll",
-    "deploy": "npm run website",
+    "deploy": "npm run build && npm run website",
+    "preview": "cd web/ && nanoc view &\nopen http://localhost:3000/jison/",
     "install-jison-lex": "source .env && npm i jison-lex"
   },
   "homepage": "https://gerhobbelt.github.io/jison/docs/"

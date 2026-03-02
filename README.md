@@ -66,8 +66,7 @@ Full cli option list:
        -V, --version                 print version and exit
 
 
-Usage from a CommonJS module
---------------------------
+## Usage from a CommonJS module
 
 You can generate parsers programatically from JavaScript as well. Assuming Jison is in your commonjs environment's load path:
 
@@ -105,30 +104,26 @@ parser.parse("adfe34bc e82a");
 parser.parse("adfe34bc zxg");
 ```
 
-More Documentation
-------------------
+## More Documentation
+
 For more information on creating grammars and using the generated parsers, read the [documentation](https://ull-esit-pl.github.io/jison/docs/).
 
-How to contribute
------------------
+## How to contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
-Projects using Jison
-------------------
+## Projects using Jison
 
 View them on the zaach/jison [wiki](https://github.com/zaach/jison/wiki/ProjectsUsingJison), or add your own.
 
 
-Contributors
-------------
+## Contributors
 
 See https://github.com/ULL-ESIT-PL/jison/graphs/contributors 
 
 Special thanks to Jarred Ligatti, Manuel E. Bermúdez 
 
-License
--------
+## License
 
 > Copyright (c) 2009-2014 Zachary Carter
 > 
