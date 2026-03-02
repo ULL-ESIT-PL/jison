@@ -1,5 +1,4 @@
-Contributing to Jison
-=======
+# Contributing to Jison
 
 Fork, make your changes, run tests and/or add tests then send a pull request.
 
