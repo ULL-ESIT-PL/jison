@@ -27,3 +27,8 @@ Then you can also preview the site by doing:
     
 Note that you will need `nanoc` and `adsf` in order to build/preview the site. `gem install` them if you haven't.
 
+## Make a pull request
+
+Make your changes, 
+run tests and/or add tests and then send your issues to https://github.com/ULL-ESIT-PL/jison/issues
+and pull requests to https://github.com/ULL-ESIT-PL/jison/pulls.
