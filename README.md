@@ -10,7 +10,7 @@ Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a
 
 ## Installation
 
-[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`]([http://npm/](https://docs.npmjs.com/)
+[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`](https://docs.npmjs.com/)
 
 Using npm (no authentication required):
 
