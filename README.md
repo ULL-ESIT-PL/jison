@@ -16,7 +16,7 @@ Installation
 ------------
 Jison can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/)
 
-Using npm:
+Using npm (no authentication required):
 
 
     npm install git+https://github.com/@ull-esit-pl/jison.git
@@ -34,7 +34,7 @@ or, having set up your npm registry to point to the GitHub registry:
 //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
 ```
 
-then you can install with:
+and you set up your `.env` file with the appropriate token taken from GitHub (https://github.com/setttings/tokens), then you can install with:
 
 ```
     npm install @ull-esit-pl/jison 
