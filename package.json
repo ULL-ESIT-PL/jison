@@ -49,7 +49,7 @@
     "test": "node tests/all-tests.js",
     "pub": "source .env && npm publish",
     "publi": "npm run pub",
-    "website": "gh-pages -d web/output --nojekyll"
+    "website": "gh-pages -d web/output/jison --nojekyll"
   },
   "homepage": "https://gerhobbelt.github.io/jison/docs/"
 }

@@ -116,17 +116,17 @@ parser.parse("adfe34bc zxg");
 
 More Documentation
 ------------------
-For more information on creating grammars and using the generated parsers, read the [documentation](https://gerhobbelt.github.io/jison/docs/).
+For more information on creating grammars and using the generated parsers, read the [documentation](https://ull-esit-pl.github.io/jison/).
 
 How to contribute
 -----------------
 
-See [CONTRIBUTING.md](https://github.com/zaach/jison/blob/master/CONTRIBUTING.md) for contribution guidelines, how to run the tests, etc.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, how to run the tests, etc.
 
 Projects using Jison
 ------------------
 
-View them on the [wiki](https://github.com/zaach/jison/wiki/ProjectsUsingJison), or add your own.
+View them on the zaach/jison [wiki](https://github.com/zaach/jison/wiki/ProjectsUsingJison), or add your own.
 
 
 Contributors
