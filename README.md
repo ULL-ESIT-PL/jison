@@ -14,7 +14,7 @@ Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a
 
 Installation
 ------------
-Jison can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/)
+@ull-esit-pl/Jison can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/)
 
 Using npm (no authentication required):
 
