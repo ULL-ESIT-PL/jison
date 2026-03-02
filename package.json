@@ -29,7 +29,7 @@
     "node": ">=0.4"
   },
   "dependencies": {
-    "@ull-esit-pl/jison-lex": "0.3.x",
+    "@ull-esit-pl/jison-lex": "github:ULL-ESIT-PL/jison-lex",
     "cjson": "0.3.0",
     "commander": "^11.1.0",
     "ebnf-parser": "0.1.10",
