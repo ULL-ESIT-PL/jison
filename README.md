@@ -45,7 +45,7 @@ Usage from the command line
 
 Clone the github repository for examples:
 
-    git clone git://github.com/zaach/jison.git
+    git clone https://github.com/ULL-ESIT-PL/jison.git
     cd jison/examples
 
 Now you're ready to generate some parsers:
@@ -82,7 +82,7 @@ You can generate parsers programatically from JavaScript as well. Assuming Jison
 
 ```javascript
 // mygenerator.js
-var Parser = require("jison").Parser;
+var Parser = require("@ull-esit-pl/jison").Parser;
 
 // a grammar in JSON
 var grammar = {
@@ -116,7 +116,7 @@ parser.parse("adfe34bc zxg");
 
 More Documentation
 ------------------
-For more information on creating grammars and using the generated parsers, read the [documentation](http://jison.org/docs).
+For more information on creating grammars and using the generated parsers, read the [documentation](https://gerhobbelt.github.io/jison/docs/).
 
 How to contribute
 -----------------
