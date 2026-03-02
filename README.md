@@ -131,9 +131,10 @@ View them on the zaach/jison [wiki](https://github.com/zaach/jison/wiki/Projects
 
 Contributors
 ------------
-[Githubbers](http://github.com/zaach/jison/contributors)
 
-Special thanks to Jarred Ligatti, Manuel E. Bermúdez 
+See https://github.com/ULL-ESIT-PL/jison/graphs/contributors 
+
+Zachary Carter gives special thanks to Jarred Ligatti, Manuel E. Bermúdez 
 
 License
 -------
