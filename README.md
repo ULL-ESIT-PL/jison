@@ -10,7 +10,7 @@ Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a
 
 ## Installation
 
-[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`](https://docs.npmjs.com/). 
+[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) is allocated in the GitHub Registry and can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`](https://docs.npmjs.com/) configuring first these two steps:
 
 1. Set up your npm registry to point to associate the `@ull-esit-pl` scope with the GitHub Registry:
 
