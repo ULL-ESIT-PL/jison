@@ -123,6 +123,10 @@ See https://github.com/ULL-ESIT-PL/jison/graphs/contributors
 
 Special thanks to Jarred Ligatti, Manuel E. Bermúdez 
 
+## See also
+
+* [@ull-esit-pl/jison-lex](https://github.com/ULL-ESIT-PL/jison-lex) - A lexer generator with Lex's API, used by Jison for lexical analysis.
+  
 ## License
 
 > Copyright (c) 2009-2014 Zachary Carter
