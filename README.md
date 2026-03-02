@@ -8,9 +8,9 @@ Jison generates bottom-up parsers in JavaScript. Its API is similar to Bison's, 
 
 Briefly, Jison takes a JSON encoded grammar or Bison style grammar and outputs a JavaScript file capable of parsing the language described by that grammar. You can then use the generated script to parse inputs and accept, reject, or perform actions based on the input.
 
-Installation
-------------
-@ull-esit-pl/Jison can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/)
+## Installation
+
+[@ull-esit-pl/jison](https://github.com/ULL-ESIT-PL/jison) can be installed for [Node](https://nodejs.org/docs/latest/api/) using [`npm`]([http://npm/](https://docs.npmjs.com/)
 
 Using npm (no authentication required):
 
