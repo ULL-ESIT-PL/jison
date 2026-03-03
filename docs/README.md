@@ -202,7 +202,7 @@ A demo of the calculator script used in a web page is [here](/jison/demos/calc/)
 The Concepts of Jison
 ---------------------
 
-Until the [Bison guide](http://dinosaur.compilertools.net/bison/bison_4.html#SEC7) is properly ported for Jison, you can refer to it for the major concepts, which are equivalent (except for the bits about static typing of semantic values, and other obvious C artifacts.)
+Until the [Bison guide](https://www.gnu.org/software/bison/manual/) is properly ported for Jison, you can refer to it for the major concepts, which are equivalent (except for the bits about static typing of semantic values, and other obvious C artifacts.)
 
 Other helpful sections:
 
