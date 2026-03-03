@@ -25,21 +25,57 @@
 <p>Jison takes a context-free grammar as input and outputs a JavaScript file capable of parsing the language described by that grammar. You can then use the generated script to parse inputs and accept, reject, or perform actions based on the input. If you’re familiar with Bison or Yacc, or other clones, you’re almost ready to roll.</p>
 
 <ul>
-  <li><a href="#installation">Installation</a></li>
-  <li><a href="#usage-from-the-command-line">Usage from the command line</a></li>
-  <li><a href="#usage-from-a-commonjs-module">Usage from a CommonJS Module</a></li>
-  <li><a href="#using-the-generated-parser">Using the Generated Parser</a></li>
-  <li><a href="#using-the-parser-from-the-web">Using the Parser from the Web</a></li>
-  <li><a href="#the-concepts-of-jison">The Concepts of Jison</a></li>
-  <li><a href="#specifying-a-language">Specifying a Language</a></li>
-  <li><a href="#lexical-analysis">Lexical Analysis</a></li>
-  <li><a href="#tracking-locations">Tracking Locations</a></li>
-  <li><a href="#custom-scanners">Custom Scanners</a></li>
-  <li><a href="#sharing-scope">Sharing Scope</a></li>
-  <li><a href="#parsing-algorithms">Parsing algorithms</a></li>
-  <li><a href="#projects-using-jison">Projects using Jison</a></li>
-  <li><a href="#contributors">Contributors</a></li>
-  <li><a href="#license">License</a></li>
+  <li><a href="#documentation">Documentation</a>
+    <ul>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#usage-from-the-command-line">Usage from the command line</a></li>
+      <li><a href="#usage-from-a-commonjs-module">Usage from a CommonJS Module</a></li>
+      <li><a href="#using-the-generated-parser">Using the Generated Parser</a></li>
+      <li><a href="#using-the-parser-from-the-web">Using the Parser from the Web</a></li>
+      <li><a href="#the-concepts-of-jison">The Concepts of Jison</a></li>
+      <li><a href="#specifying-a-language">Specifying a Language</a></li>
+      <li><a href="#lexical-analysis">Lexical Analysis</a></li>
+      <li><a href="#tracking-locations">Tracking Locations</a></li>
+      <li><a href="#custom-scanners">Custom Scanners</a></li>
+      <li><a href="#sharing-scope">Sharing Scope</a></li>
+      <li><a href="#parsing-algorithms">Parsing algorithms</a></li>
+      <li><a href="#deviations-from-flex--bison">Deviations from Flex / Bison</a></li>
+      <li><a href="#lex-patterns">Lex Patterns</a>
+        <ul>
+          <li><a href="#literal-tokens">Literal tokens</a></li>
+          <li><a href="#longest-rule-matching">Longest rule matching</a></li>
+          <li><a href="#additions">Additions</a>
+            <ul>
+              <li><a href="#negative-lookahead">Negative Lookahead</a></li>
+              <li><a href="#advanced-grouping-options">Advanced Grouping Options</a></li>
+              <li><a href="#yymore-yyless-etc">yymore, yyless, etc…</a></li>
+              <li><a href="#braces-in-actions">Braces in actions</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#semantic-actions">Semantic Actions</a>
+        <ul>
+          <li><a href="#braces">Braces</a></li>
+          <li><a href="#short-hand-syntax">Short-hand syntax</a></li>
+          <li><a href="#accessing-values-and-location-information">Accessing values and location information</a>
+            <ul>
+              <li><a href="#auto-numbered-named-accessors">Auto-numbered named accessors</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#extended-bnf">Extended BNF</a></li>
+      <li><a href="#extended-bnf-how-it-works-and-what-to-keep-in-mind-when-using-this">Extended BNF: how it works and what to keep in mind when using this</a>
+        <ul>
+          <li><a href="#big-fat-warning">BIG FAT WARNING:</a></li>
+        </ul>
+      </li>
+      <li><a href="#projects-using-jison">Projects using Jison</a></li>
+      <li><a href="#contributors">Contributors</a></li>
+      <li><a href="#license">License</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="installation">Installation</h2>
@@ -743,7 +779,7 @@ nonterminal or alias by using the auto-numbered form.</p>
 <p>An example:</p>
 
 <dl>
-  <dt>``` plain</dt>
+  <dt>``` </dt>
   <dt>test</dt>
   <dd>subrule[alt] subrule[wicked_middle] subrule[alt] ‘?’[alt]
 %{
