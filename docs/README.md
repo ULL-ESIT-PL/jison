@@ -206,9 +206,9 @@ Until the [Bison guide](http://dinosaur.compilertools.net/bison/bison_4.html#SEC
 
 Other helpful sections:
 
-* [Bison Grammar Files](http://dinosaur.compilertools.net/bison/bison_6.html#SEC34)
-* [The Bison Parser Algorithm](http://dinosaur.compilertools.net/bison/bison_8.html#SEC68)
-* [Error Recovery](http://dinosaur.compilertools.net/bison/bison_9.html#SEC81) (alpha support, at this point)
+* [Bison Grammar Files](hhttps://www.gnu.org/software/bison/manual/html_node/Grammar-File.html)
+* [The Bison Parser Algorithm](https://www.gnu.org/software/bison/manual/html_node/Algorithm.html)
+* [Error Recovery][(http://dinosaur.compilertools.net/bison/bison_9.html#SEC81](https://www.gnu.org/software/bison/manual/html_node/Error-Recovery.html)) (alpha support, at this point)
 
 
 
