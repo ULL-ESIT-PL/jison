@@ -51,10 +51,13 @@ Installation
 
 Jison can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/)
 
-Using npm:
+Using npm::
 
-    npm install jison -g
+```console
+    npm install @ull-esit-pl/jison
+```
 
+You need a GitHub token with at least `read:packages` scope to be able to install the package.
 
 
 Usage from the command line
