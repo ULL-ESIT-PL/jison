@@ -80,15 +80,24 @@ Copy the examples to your local machine following this [DownGit link](https://do
 
 Now you're ready to generate some parsers:
 
-    jison calculator.jison
-
-This will generate `calculator.js` in your current working directory. This script can be used to parse an input file, like so:
-
-    echo "2^32 / 1024" > testcalc
-    node calculator.js testcalc
-
-This will print out `4194304`.
-
+```js
+➜  jison git:(master) cd examples 
+➜  examples git:(master) npx jison calculator.jison 
+➜  examples git:(master) ✗ ls -tr calculator*
+calculator.jison calculator.json  calculator.js
+➜  examples git:(master) ✗ node              
+Welcome to Node.js v25.6.0.
+> p = require("./calculator")
+{
+  parser: { yy: {} },
+  Parser: [Function: Parser],
+  parse: [Function (anonymous)],
+  main: [Function: commonjsMain]
+}
+> p.parse("2*3!")
+12
+12
+```
 
 
 Usage from a CommonJS Module
