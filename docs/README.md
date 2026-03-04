@@ -103,38 +103,34 @@ Welcome to Node.js v25.6.0.
 Usage from a CommonJS Module
 --------------------------
 
-You can generate parsers programmatically from JavaScript as well. Assuming Jison is in your CommonJS environment's load path:
+You can generate parsers programmatically from JavaScript as well. Assuming Jison is in your CommonJS environment's load path. Here is a REPL example:
 
 ```js
-    // mygenerator.js
-    var Parser = require("jison").Parser;
-
-    var grammar = {
-        "lex": {
-            "rules": [
-               ["\\s+", "/* skip whitespace */"],
-               ["[a-f0-9]+", "return 'HEX';"]
-            ]
-        },
-
-        "bnf": {
-            "hex_strings" :[ "hex_strings HEX",
-                             "HEX" ]
-        }
-    };
-
-    var parser = new Parser(grammar);
-
-    // generate source, ready to be written to disk
-    var parserSource = parser.generate();
-
-    // you can also use the parser directly from memory
-
-    parser.parse("adfe34bc e82a");
-    // returns true
-
-    parser.parse("adfe34bc zxg");
-    // throws lexical error
+✗ node
+Welcome to Node.js v25.6.0.
+Type ".help" for more information.
+> const Parser = require("@ull-esit-pl/jison").Parser
+> const grammar = {
+         "lex": {
+             "rules": [
+                ["\\s+", "/* skip whitespace */"],
+                ["[a-f0-9]+", "return 'HEX';"]
+             ]
+         },
+ 
+         "bnf": {
+             "hex_strings" :[ "hex_strings HEX",
+                              "HEX" ]
+         }
+     };
+> const parser = new Parser(grammar);
+> const parseString = parser.generate()
+> parser.parse("adfe34bc e82a");
+true
+> try { parser.parse("adfe34bc zxg"); } catch(e) { console.log(e.message); }
+Lexical error on line 1. Unrecognized text.
+adfe34bc zxg
+---------^
 ```
 
 Alternatively, if you want to use the Jison file format but not generate a static JavaScript file for it, you could use a snippet like this:
