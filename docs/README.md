@@ -58,9 +58,7 @@ Using npm::
 ```
 
 You need a GitHub token with at least `read:packages` scope to be able to install the package.
-
-
-You may want to have a  `.npmrc` with this configuration in your project root or in your home directory `~/.npmrc`:
+You may also want to have a  `.npmrc` with this configuration in your project root or in your home directory `~/.npmrc`:
 
    ```console
     ✗ cat .npmrc
