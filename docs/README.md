@@ -83,6 +83,7 @@ Usage from a CommonJS Module
 
 You can generate parsers programmatically from JavaScript as well. Assuming Jison is in your CommonJS environment's load path:
 
+```js
     // mygenerator.js
     var Parser = require("jison").Parser;
 
@@ -112,9 +113,11 @@ You can generate parsers programmatically from JavaScript as well. Assuming Jiso
 
     parser.parse("adfe34bc zxg");
     // throws lexical error
+```
 
 Alternatively, if you want to use the Jison file format but not generate a static JavaScript file for it, you could use a snippet like this:
 
+```js
     // myparser.js
     var fs = require("fs");
     var jison = require("jison");
@@ -123,7 +126,7 @@ Alternatively, if you want to use the Jison file format but not generate a stati
     var parser = new jison.Parser(bnf);
 
     module.exports = parser;
-
+```
 
 
 Using the Generated Parser
