@@ -76,10 +76,7 @@ You must configure the `NODE_AUTH_TOKEN` environment variable with a GitHub toke
 Usage from the command line
 -----------------------
 
-Clone the github repository for examples:
-
-    git clone git://github.com/zaach/jison.git
-    cd jison/examples
+Copy the examples to your local machine following this [DownGit link](https://downgit.github.io/#/home?url=https://github.com/ULL-ESIT-PL/jison/tree/master/examples)
 
 Now you're ready to generate some parsers:
 
