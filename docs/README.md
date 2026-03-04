@@ -54,10 +54,25 @@ Jison can be installed for [Node](http://nodejs.org) using [`npm`](http://github
 Using npm::
 
 ```console
-    npm install @ull-esit-pl/jison
+    npm install @ull-esit-pl/jison --registry=https://npm.pkg.github.com
 ```
 
 You need a GitHub token with at least `read:packages` scope to be able to install the package.
+
+
+You may want to have a  `.npmrc` with this configuration in your project root or in your home directory `~/.npmrc`:
+
+   ```console
+    ✗ cat .npmrc
+    # Configure npm to use GitHub Packages for @ull-esit-pl scope
+    @ull-esit-pl:registry=https://npm.pkg.github.com
+    # See the .env file for the actual token value
+    //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}%
+   ```
+
+GitHub Registry requires user authentication for package installation and publishing.
+You must configure the `NODE_AUTH_TOKEN` environment variable with a GitHub token that has the `read:packages` permission. You can create your token at https://github.com/settings/tokens. The `NODE_AUTH_TOKEN` environment variable is used to authenticate npm against a private registry without having to save the token directly in the `.npmrc`.
+
 
 
 Usage from the command line
