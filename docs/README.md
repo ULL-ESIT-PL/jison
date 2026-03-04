@@ -140,6 +140,7 @@ As demonstrated before, the parser can be used from the command line:
 
 Though, more ideally, the parser will be a dependency of another module. You can require it from another module like so:
 
+```js
     // mymodule.js
     var parser = require("./calculator").parser;
 
@@ -148,16 +149,18 @@ Though, more ideally, the parser will be a dependency of another module. You can
     }
 
     var twenty = exec("4 * 5");
+```
 
 Or more succinctly:
 
+```js
     // mymodule.js
     function exec (input) {
         return require("./calculator").parse(input);
     }
 
     var twenty = exec("4 * 5");
-
+```
 
 
 Using the Parser from the Web
