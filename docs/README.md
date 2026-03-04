@@ -78,9 +78,9 @@ Usage from the command line
 
 Copy the examples to your local machine following this [DownGit link](https://downgit.github.io/#/home?url=https://github.com/ULL-ESIT-PL/jison/tree/master/examples)
 
-Now you're ready to generate some parsers:
+Now you're ready to generate a parser for the [calculator example](/examples/calculator.jison):
 
-```js
+```console
 ➜  jison git:(master) cd examples 
 ➜  examples git:(master) npx jison calculator.jison 
 ➜  examples git:(master) ✗ ls -tr calculator*
