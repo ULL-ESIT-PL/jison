@@ -2,7 +2,7 @@
   "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
   "name": "@ull-esit-pl/jison",
   "description": "A parser generator with Bison's API",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "license": "MIT",
   "keywords": [
     "jison",
@@ -28,7 +28,9 @@
   "engines": {
     "node": ">=0.4"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "json5": "^2.2.3",
     "commander": "^11.1.0",
