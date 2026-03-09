@@ -145,7 +145,14 @@ Alternatively, if you want to use the Jison file format but not generate a stati
 
     module.exports = parser;
 ```
+the constructor is in file `jison.js` and takes two parameters, the first is the grammar and the second is an options object. The grammar can be a string in Jison's grammar format, or a JSON object with `lex` and `bnf` properties. The options object can be used to specify the type of parser to generate, the type of module to generate, and other options.
 
+```js
+return function Parser (g, options) {
+    var gen = Jison.Generator(g, options);
+    return gen.createParser();
+};
+```
 
 Using the Generated Parser
 --------------------------
