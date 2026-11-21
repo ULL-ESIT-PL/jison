@@ -1,0 +1,16 @@
+package.json
+  h_a580421f60d2d7 5,40
+package-lock.json
+  h_a580421f60d2d7 12,73-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "885aec1c5ed3b858318858d9259fc50a7430b1c6",
+  "prompts": {},
+  "humans": {
+    "h_a580421f60d2d7": {
+      "author": "Casiano Rodriguez-Leon <crguezl@ull.edu.es>"
+    }
+  }
+}
